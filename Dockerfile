@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir flask ddddocr
 EXPOSE 3721
 
 # 设置启动命令
-CMD ["python", "app.py"]
+CMD ["python", "ocr_server.py"]
