@@ -32,7 +32,7 @@ git clone https://github.com:CHERWING/CHERWIN_OCR.git
 cd CHERWIN_OCR
 
 # 编译镜像
-docker build -t cherwin_ocr.
+docker build -t cherwin_ocr .
 
 # 运行镜像
 docker run -p 3721:3721 -v /volume1/docker/ocr:/app --name cherwin_ocr cherwin_ocr
